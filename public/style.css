@@ -1,0 +1,235 @@
+/*
+Author: Emily Stockenbojer
+Date: 3/4/18
+Description: stylesheet for website
+*/
+
+#accordianContainer {
+  text-align: center;
+}
+
+.accordion {
+  background: linear-gradient(#845a23, #4e2e00);
+  color: #fff;
+  cursor: pointer;
+  font-size: 25px;
+  font-family: 'Parisienne', cursive;
+  text-shadow: 2px 2px 4px #000000;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+.panel {
+  padding: 0 15px;
+  font-family: "Georgia", serif;
+  font-size: 20px;
+  background-image: none;
+  width: 98%;
+  display: none;
+  overflow: hidden;
+}
+
+.panel ul {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.navigation {
+  background-color: #603913;
+  overflow: hidden;
+  font-family: 'Parisienne', cursive;
+}
+
+.navigation a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 8px 20px;
+  text-decoration: none;
+  font-size: 25px;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.navigation a:hover {
+  background: linear-gradient(#f4e7d4, #f9dcb3);
+  color: black;
+}
+
+body {
+  background-image: url("images/vintage-concrete.png");
+}
+
+.navigation ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-image: url("images/wood_1.png");
+}
+
+.navigation li {
+  float: left;
+}
+
+.navigation li {
+  border-right: 1px solid #f4e7d4;
+}
+
+.navigation li:last-child {
+  border-right: none;
+}
+
+.homepageText {
+  color: #4d2b0a;
+  text-align: center;
+  font-family: "Georgia", serif;
+}
+
+.foot {
+  text-align: center;
+  height: 120px;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  padding-left: 120px;
+  color: white;
+  background-image: url("images/wood_1.png");
+  display: block;
+}
+
+IMG.centered {
+  display: inline-block;
+  margin: auto;
+}
+
+.attribution a {
+  color: white;
+  text-decoration: none;
+  font-size: 8px;
+}
+
+button:hover {
+  background: linear-gradient(#f4e7d4, #f9dcb3);
+  color: black;
+}
+
+.resButton {
+  color: white;
+  font-size: 30px;
+  border: 1px outset white;
+  border-radius: 20px;
+  padding: 10px 15px;
+  background: linear-gradient(#845a23, #4e2e00);
+  text-shadow: 2px 2px 4px #000000;
+  font-family: 'Parisienne', cursive;
+  cursor: pointer;
+}
+
+.item img {
+  width: 100%;
+  height: auto
+}
+
+.aboutText {
+  color: #4d2b0a;
+  text-align: left;
+  padding-left: 40px;
+  font-family: "Georgia", serif;
+}
+
+#aboutTitle {
+  color: #4d2b0a;
+  text-align: center;
+  padding-left: 40px;
+  font-family: "Georgia", serif;
+}
+
+.menuText {
+  color: #4d2b0a;
+  text-align: center;
+  padding-left: 40px;
+  font-family: "Georgia", serif;
+}
+
+.menuButton {
+  text-align: center;
+}
+
+.downButton {
+  color: white;
+  font-size: 25px;
+  border: 1px outset white;
+  border-radius: 20px;
+  padding: 10px 15px;
+  background: linear-gradient(#845a23, #4e2e00);
+  text-shadow: 2px 2px 4px #000000;
+  font-family: 'Parisienne', cursive;
+  cursor: pointer;
+}
+
+.scrollbox {
+  border: 5px black groove;
+  padding: 5px;
+  font-size: 15px;
+  line-height: 40px;
+  font-family: "Georgia", serif;
+  color: #4d2b0a;
+  ;
+  width: 400px;
+  height: 300px;
+  overflow: scroll;
+  text-decoration: none;
+}
+
+.scrollbox a {
+  color: #b27b2d;
+}
+
+.scrollbox ul {
+  list-style-type: square;
+  display: inline-block;
+}
+
+.scrollbox li {
+  text-align: left;
+}
+
+.scrollbox a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+/*custom scrollbar using webkit*/
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+  background: #000;
+}
+
+::-webkit-scrollbar-track {
+  border: 1px solid #382306;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(#845a23, #4e2e00);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(#f4e7d4, #f9dcb3);
+}
+
+#contactUs {
+  color: #4d2b0a;
+  text-align: center;
+  font-family: "Georgia", serif;
+}
